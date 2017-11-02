@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2017. Schoultz Consulting, Sweden.
+ */
+
 package nu.schoultz.story1;
 
 import java.io.*;

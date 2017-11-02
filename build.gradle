@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2017. Schoultz Consulting, Sweden.
+ */
+
 group 'nu.schoultz'
 version '1.0.0'
 
