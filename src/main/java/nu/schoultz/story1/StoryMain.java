@@ -6,7 +6,6 @@ package nu.schoultz.story1;
 
 public class StoryMain {
 
-
     public static void main(String[] args) throws Exception {
 
         String filename;

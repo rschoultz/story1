@@ -24,9 +24,8 @@ class GameLoop {
 
             if (story.getCurrentChoices().size() > 0) {
 
-                final AtomicInteger count = new AtomicInteger();
-
-                story.getCurrentChoices().forEach(s -> System.out.println(count.incrementAndGet() + ": " + s.getText()));
+                final AtomicInteger count = new AtomicInteger(0);
+                story.getCurrentChoices().forEach(s -> System.out.println(count.getAndIncrement() + ": " + s.getText()));
 
                 Integer choice = getConsoleChoice(count.intValue());
                 story.chooseChoiceIndex(choice);
